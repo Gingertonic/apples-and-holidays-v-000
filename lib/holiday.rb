@@ -102,8 +102,10 @@ def all_holidays_with_bbq(holiday_hash)
   # include the string "BBQ"
   bbq_seasons = Array.new
   holiday_hash.each do |season, holidays|
-    holidays.each do |holiday_name, supplies|
-      binding.pry
+    holidays.each do |holiday, supplies|
+      supplies.each do |x|
+          binding.pry
+      end
     end 
   end
   bbq_seasons
