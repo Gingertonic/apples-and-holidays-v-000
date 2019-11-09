@@ -103,7 +103,7 @@ def all_holidays_with_bbq(holiday_hash)
   bbq_seasons = Array.new
   holiday_hash.each do |season, holidays|
     holidays.each do |holiday, supplies|
-      supplies.each do |x|
+      supplies.each do |supply|
           binding.pry
       end
     end 
